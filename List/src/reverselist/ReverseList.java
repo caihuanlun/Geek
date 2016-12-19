@@ -1,9 +1,11 @@
-package owlinkedlist;
+package reverselist;
+
+import bean.Node;
 
 /**
  * 反转单向链表的两种方法
  * 
- * @author yingmu
+ * @author Allen
  * 
  */
 public class ReverseList {
@@ -38,6 +40,7 @@ public class ReverseList {
 	
 	/**
 	 * 递归，在反转当前节点之前先反转后续节点 
+	 * 
 	 * @param head
 	 * @return
 	 */

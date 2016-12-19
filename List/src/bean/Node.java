@@ -1,9 +1,9 @@
-package owlinkedlist;
+package bean;
 
 /**
  * 链表的节点
  * 
- * @author yingmu
+ * @author Allen
  *
  */
 public class Node {
