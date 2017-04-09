@@ -26,4 +26,19 @@ public class Node {
     public void setNext(Node Next) {  
         this.Next = Next;  
     }  
+    
+    /**
+     * 返回节点的长度
+     * @return
+     */
+    public static int length(Node head) {
+    	int length = 0;
+    	
+    	Node tmp = head;
+    	while(tmp != null) {
+    		length ++;
+    		tmp = tmp.getNext();
+    	}
+    	return length;
+    }
 }
